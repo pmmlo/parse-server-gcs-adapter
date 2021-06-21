@@ -84,7 +84,6 @@ GCSAdapter.prototype.createFile = function(filename, data, contentType) {
         resolve();
       }
     });
-    uploadStream.write(data);
     uploadStream.end();
   });
 }
