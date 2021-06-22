@@ -4,7 +4,7 @@
   "description": "Google Cloud Storage adapter for parse-server",
   "main": "index.js",
   "dependencies": {
-    "@google-cloud/storage": "^5.7.2"
+    "@google-cloud/storage": "^5.8.5"
   },
   "devDependencies": {
     "codecov": "^3.8.1",
